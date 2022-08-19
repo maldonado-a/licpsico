@@ -13,9 +13,14 @@
   justify-content: center;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .banner {
     display: flex;
     flex-direction: column-reverse;
+    width: 22rem;
+  }
+  .imagenBanner img {
+    width: 18rem;
+    padding-bottom: 2rem;
   }
 }/*# sourceMappingURL=style.css.map */
