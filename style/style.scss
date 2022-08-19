@@ -1,0 +1,29 @@
+.colorMenu{
+    background-color: burlywood;
+}
+.logo{
+
+    margin-left: 2rem;
+}
+
+
+
+
+.banner{
+    padding: 2rem;
+
+    width: 70rem;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+@media (max-width: 320px) {
+
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+}
